@@ -38,7 +38,7 @@ pset1
   mario
   ------
   Implement a program that prints out a half-pyramid of a specified height, per the below.
-  `$ ./mario
+  ```$ ./mario
     Height: 5
         ##
        ###
@@ -50,7 +50,7 @@ pset1
     Height: 3
       ##
      ###
-    ####`
+    ####```
   
   water
   ------
