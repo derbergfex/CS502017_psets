@@ -30,7 +30,7 @@ Contents
   
 pset1
 =====
-**Content:** Intro to C.
+
   hello
   ------
   Implement a program that prints out a simple greeting to the user.
@@ -61,10 +61,12 @@ pset1
   greedy
   ------
   Implement a program that calculates the minimum number of coins required to give a user change.
-  `$ ./greedy
+   ```
+   $ ./greedy
    O hai! How much change is owed?
    0.41
-   4`
+   4
+   ```
   
 pset2
 =====
