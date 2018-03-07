@@ -23,7 +23,7 @@ Contents
   * [/recover](#/recover)
   
 * [pset5](#pset5)
-  * [/speller](#speller)
+  * [/speller](#/-speller)
 
   
   
