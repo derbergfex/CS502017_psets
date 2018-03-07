@@ -1,0 +1,20 @@
+0.  An invented long word said to mean a lung disease caused by inhaling very fine ash and sand dust.
+1.  It takes in 2 arguments RUSAGE_SELF and before or after. before or after are of type struct rusage.
+    RUSAGE_SELF tells getrusage to fill the second argument with information about the resources used by the current process.
+2. 16.
+3. By passing reference instead of value, calculate() will be handling the latest variable data.
+4. It first checks for the right number of arguments, calls getrusage() and calculate() to measure load times before and after.
+   If there is no specified dictionary file passed in the argument, it loads the default file specified in #define DICTIONARY.
+   It then creates a string array word, set to the length in the #define statement plus one char for the \0 byte.
+   The for loop reads the file one character at a time, until reaching end of file. For each char, the loop checks
+   if the char is alphanumeric or an apostrophe, it updates the index and moves on to the next letter. The loop also
+   checks if the char is a number and if so ignores it. If the loop reaches '\0' and the index is still smaller than
+   the length of the longest word plus one extra byte, and it did not contain any numbers, the loop assumes it is a real word,
+   updates the variable containing the number of words, calls getrusage() again and executes the misspelled function.
+   If misspelled returns true, the for loop prints the misspelled word, updates the benchmark variable containing the number of
+   misspelled words found, and sets the index back to 0 and returns to the start of the loop for the next word.
+5.  fscanf reads in fromatted strings, whilst fgetc can read one character in at a time. fscanf can cause problems since we don't
+    know if we are dealing with correctly formatted strings (e.g. we can read a whole string that contains numbers), whilst with
+    fscanf we ensure that each char read is valid.
+6. By using const pointer, if accidentally tried changing the value it points to, the compiler would give a warning.
+   Moreover, the words from the text and the dictionary are not supposed to be changed in this solution.

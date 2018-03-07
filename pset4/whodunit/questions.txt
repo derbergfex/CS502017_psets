@@ -1,0 +1,12 @@
+1.  It is is a header file in the C standard library, which contains a set of useful BMP-related typedefs.
+2.  They need to be used in the structs of BITMAPFILEHEADER and BITMAPINFOHEADER as properties.
+3.  1, 4, 4, 2.
+4.  0x42 0x4D
+5.  bfSize is the size of the whole BMP file, whilst biSize is a constant (40 bytes) and is the size of BITMAPINFOHEADER header file.
+6.  It means that the image lines are stored top-down (i.e. the first pixel in the pixel array would be in the top left corner of the image).
+7.  biBitCount
+8.  The file might not exist or be unable to be written to.
+9.  We are reading the files one struct at a time.
+10. 3 (bytes).
+11. Sets your position in the file forward by the offset you specify either from the beginning of the file, your current position, or the end of the file, whichever you choose.
+12. The current position in the file.
