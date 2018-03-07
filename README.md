@@ -4,26 +4,27 @@ Harvard's CS50 C Psets
 Contents
 --------
 * [pset1](#pset1)
-  * /hello
-  * /mario
-  * /water
+  * [/hello](#/hello)
+  * [/mario](#/mario)
+  * [/water](#/water)
   
 * [pset2](#pset2)
-  * /initials
-  * /caesar
-  * /vigenere
+  * [/initials](#/initials)
+  * [/caesar](#/caesar)
+  * [/vigenere](#/vigenere)
   
 * [pset3](#pset3)
-  * /find
-  * /fifteen
+  * [/find](#/find)
+  * [/fifteen](#/fifteen)
   
 * [pset4](#pset4)
-  * /whodunit
-  * /resize
-  * /recover
+  * [/whodunit](#/whodunit)
+  * [/resize](#/resize)
+  * [/recover](#/recover)
   
 * [pset5](#pset5)
-  * /speller
+  * [/speller](#/speller)
+
   
   
 pset1
