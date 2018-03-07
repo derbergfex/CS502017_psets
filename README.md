@@ -29,42 +29,56 @@ Contents
   
 pset1
 =====
-  /hello
+
+  hello
   ------
+  ....
   
-  /mario
+  mario
   ------
+  .....
   
-  /water
+  water
   ------
+  ....
   
 pset2
 =====
-  /initials
+
+  initials
   ---------
+  ...
   
-  /caesar
+  caesar
   -------
+  ...
   
-  /vigenere
+  vigenere
   ---------
+  ...
   
 pset3
 =====
-  /find
+
+  find
   ------
+  ...
   
-  /fifteen
+  fifteen
   --------
+  ...
   
 pset4
 =====
-  /whodunit
+
+  whodunit
   ---------
+  ...
   
-  /resize
+  resize
   -------
+  ...
   
-  /recover
+  recover
   --------
-  
+  ...
