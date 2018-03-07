@@ -39,18 +39,18 @@ pset1
   ------
   Implement a program that prints out a half-pyramid of a specified height, per the below.
   `$ ./mario
-Height: 5
-    ##
-   ###
-  ####
- #####
-######
+    Height: 5
+        ##
+       ###
+      ####
+     #####
+    ######
 
-$ ./mario
-Height: 3
-  ##
- ###
-####`
+   $ ./mario
+    Height: 3
+      ##
+     ###
+    ####`
   
   water
   ------
@@ -60,9 +60,9 @@ Height: 3
   ------
   Implement a program that calculates the minimum number of coins required to give a user change.
   `$ ./greedy
-O hai! How much change is owed?
-0.41
-4`
+   O hai! How much change is owed?
+   0.41
+   4`
   
 pset2
 =====
