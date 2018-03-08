@@ -1,4 +1,4 @@
-Harvard's CS50 C Psets
+Harvard's CS50 Problem Sets
 ======================
 
 # Brief Discription
