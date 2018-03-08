@@ -28,6 +28,9 @@ Contents
   
 * [pset6](#pset6)
   * [mario](#mario)
+  * [greedy](#greedy)
+  * [caesar](#caesar)
+  * [sentiments](#sentiments)
 
   
   
