@@ -228,7 +228,7 @@ pset 6
  
  sentiments
  ----------
- 1. Implement a program that categorizes a word as positive or negative.
+ ### 1. Implement a program that categorizes a word as positive or negative.
  ```
  $ ./smile love
 :)
@@ -237,7 +237,7 @@ $ ./smile hate
 $ ./smile Stanford
 :|
 ```
-2. Implement a program that categorizes a user’s tweets as positive or negative.
+### 2. Implement a program that categorizes a user’s tweets as positive or negative.
 ```
 $ ./tweets @cs50
  0 hello, @world
@@ -245,9 +245,16 @@ $ ./tweets @cs50
 -1 I hate you, @world
 ...
 ```
-The positive tweets (with a score of greater than 0) should be colored in green.
-The negative tweets (with a score of less than 0) should be colored in red.
-The neutral tweets (with a score of 0) should be colored in yellow.
+* The positive tweets (with a score of greater than 0) should be colored in green.
+* The negative tweets (with a score of less than 0) should be colored in red.
+* The neutral tweets (with a score of 0) should be colored in yellow.
 
-3. Implement a website that generates a pie chart categorizing a user’s tweets.
+### 3. Implement a website that generates a pie chart categorizing a user’s tweets.
 ![Bar Chart](https://raw.githubusercontent.com/derbergfex/CS502017_psets/master/pset6/sentiments/barchart.png)
+ #### `analyzer.py`
+ * `__init__` loads positive and negative words into memory in such a way that `analyze` can access them, and
+ * `analyze` analyzes the sentiment of text, returning a positive score if `text` is more positive than negative, a negative score if `text` is more negative than positive, and 0 otherwise, whereby that score is computed as follows:
+  * assign each word in text a value: 1 if the word is in positives, -1 if the word is in negatives, and 0 otherwise
+  * .consider the sum of those values to be the entire text’s score
+ 
+  
