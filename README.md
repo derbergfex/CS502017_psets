@@ -255,6 +255,9 @@ $ ./tweets @cs50
  * `__init__` loads positive and negative words into memory in such a way that `analyze` can access them, and
  * `analyze` analyzes the sentiment of text, returning a positive score if `text` is more positive than negative, a negative score if `text` is more negative than positive, and 0 otherwise, whereby that score is computed as follows:
    * assign each word in text a value: 1 if the word is in positives, -1 if the word is in negatives, and 0 otherwise
-   * .consider the sum of those values to be the entire text’s score
+   * consider the sum of those values to be the entire text’s score
+   
+ For instance, if text were "I love you" (and Analyzer were instantiated with default values for its named parameters), then its score would be 0 + 1 + 0 = 1, since
+   * asjhfak
  
   
