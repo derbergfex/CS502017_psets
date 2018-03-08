@@ -254,7 +254,7 @@ $ ./tweets @cs50
  #### `analyzer.py`
  * `__init__` loads positive and negative words into memory in such a way that `analyze` can access them, and
  * `analyze` analyzes the sentiment of text, returning a positive score if `text` is more positive than negative, a negative score if `text` is more negative than positive, and 0 otherwise, whereby that score is computed as follows:
-         * assign each word in text a value: 1 if the word is in positives, -1 if the word is in negatives, and 0 otherwise
-         * .consider the sum of those values to be the entire text’s score
+   * assign each word in text a value: 1 if the word is in positives, -1 if the word is in negatives, and 0 otherwise
+   * .consider the sum of those values to be the entire text’s score
  
   
