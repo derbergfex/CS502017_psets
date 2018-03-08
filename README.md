@@ -25,6 +25,9 @@ Contents
   
 * [pset5](#pset5)
   * [speller](#speller)
+  
+* [pset6](#pset6)
+  * [mario](#mario)
 
   
   
@@ -207,3 +210,44 @@ TIME IN unload:
 TIME IN TOTAL:
 
  ```
+
+pset 6
+======
+
+ mario
+ -----
+ This is the same as pset1's mario. However, this is a Python implementation of the problem instead of a C implementation.
+ 
+ greedy
+ ------
+ This is the same as pset1's greedy. However, this is a Python implementation of the problem instead of a C implementation.
+ 
+ caesar
+ ------
+ This is the same as pset2's caesar. However, this is a Python implementation of the cipher instead of a C implementation.
+ 
+ sentiments
+ ----------
+ 1. Implement a program that categorizes a word as positive or negative.
+ ```
+ $ ./smile love
+:)
+$ ./smile hate
+:(
+$ ./smile Stanford
+:|
+```
+2. Implement a program that categorizes a user’s tweets as positive or negative.
+```
+$ ./tweets @cs50
+ 0 hello, @world
+ 1 I love you, @world
+-1 I hate you, @world
+...
+```
+The positive tweets (with a score of greater than 0) should be colored in green.
+The negative tweets (with a score of less than 0) should be colored in red.
+The neutral tweets (with a score of 0) should be colored in yellow.
+
+3. Implement a website that generates a pie chart categorizing a user’s tweets.
+![Bar Chart](https://raw.githubusercontent.com/derbergfex/CS502017_psets/master/pset6/sentiments/barchart.png)
