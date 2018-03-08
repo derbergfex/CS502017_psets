@@ -251,13 +251,27 @@ $ ./tweets @cs50
 
 ### 3. Implement a website that generates a pie chart categorizing a user’s tweets.
 ![Bar Chart](https://raw.githubusercontent.com/derbergfex/CS502017_psets/master/pset6/sentiments/barchart.png)
+
  #### `analyzer.py`
  * `__init__` loads positive and negative words into memory in such a way that `analyze` can access them, and
  * `analyze` analyzes the sentiment of text, returning a positive score if `text` is more positive than negative, a negative score if `text` is more negative than positive, and 0 otherwise, whereby that score is computed as follows:
    * assign each word in text a value: 1 if the word is in positives, -1 if the word is in negatives, and 0 otherwise
    * consider the sum of those values to be the entire text’s score
    
- For instance, if text were "I love you" (and Analyzer were instantiated with default values for its named parameters), then its score would be 0 + 1 + 0 = 1, since
-   * asjhfak
+ For instance, if `text` were "I love you" (and `Analyzer` were instantiated with default values for its named parameters), then its score would be 0 + 1 + 0 = 1, since
+   * "I" is in neither `positive-words.txt` nor `negative-words.txt`,
+   * "love" is in `positive-words.txt`, and
+   * "you" is in neither `positive-words.txt` nor `negative-words.txt`.
+   
+ #### `tweets`
+   * accepts one and only one command-line argument, the screen name for a user on Twitter,
+   * queries Twitter’s API for a user’s most recent 50 tweets,
+   * analyzes the sentiment of each of those tweets, and
+   * outputs each tweet’s score and text, colored in green if positive, red if negative, and yellow otherwise.
+   
+ #### `application.py`
+   * queries Twitter’s API for a user’s most recent 100 tweets,
+   * classifies each tweet as positive, negative, or neutral,
+   * generates a chart that accurately depicts those sentiments as percentages.
  
   
