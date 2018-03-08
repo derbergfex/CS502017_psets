@@ -2,7 +2,7 @@ Harvard's CS50 C Psets
 ======================
 
 # Brief Discription
-I accessed and completed the following challenges via edX.org's Harvard CS50 (2017). The first 5 psets are implemented in C (the 2011 version, to be specific) and the 6th pset is implemented in Python. The 6th pset also uses Flask as a framework for web-development.
+I accessed and completed the following challenges via edX.org's Harvard's CS50 (2017). The first 5 psets are implemented in C (the 2011 version, to be specific) and the 6th pset is implemented in Python. The 6th pset also uses Flask as a framework for web-development.
 
 
 Contents
