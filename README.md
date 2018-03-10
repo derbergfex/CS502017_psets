@@ -281,4 +281,8 @@ $ ./tweets @cs50
    * classifies each tweet as positive, negative, or neutral,
    * generates a chart that accurately depicts those sentiments as percentages.
  
+ #### Extra Details
+   * A few years back, Dr. Minqing Hu and Prof. Bing Liu of the University of Illinois at Chicago kindly put together lists of 2006 positive words and 4783 negative words. We’ll use those to classify tweets.
+   * To implement the web-application, it is required that you have a twitter account. Moreover, you need to create a [Twitter App](apps.twitter.com): logging in if prompted, and click Create New App.
+ 
   
